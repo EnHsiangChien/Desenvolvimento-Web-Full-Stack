@@ -1,0 +1,56 @@
+p1{
+    color: rgb(132, 64, 172);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 25px;
+    margin: auto;
+    line-height: 25px;
+
+}
+h1{
+    color: rgb(255, 255, 255);
+    padding-left: 35%;
+    background-color: red;
+    padding: 20px;
+    text-align: center;
+    border: none;
+    margin: 50px;
+    border-radius: 100px;
+}
+.ID{
+    color: chartreuse;
+}
+body{
+    background-color: black;
+}
+h2{
+    color: aquamarine;
+    text-align: center;
+}
+.Lorem{
+    color: crimson;
+}
+header{
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
+.destaque{
+    background-color: rgba(165, 107, 219, 0.534);
+    padding: 10px;
+    border-radius: 10px;
+    color: aliceblue;
+    margin: 10px;
+}
+button{
+    background-color: #868805;
+    color:#fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #7c7e05;
+}

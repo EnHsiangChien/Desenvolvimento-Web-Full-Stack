@@ -1,0 +1,48 @@
+/* Reset Basico */  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Estilo Geral */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+}
+header{
+    background-color: #007bff;
+    color: #ffff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Container Flex */
+.container{
+    display: flex;
+    /* flex-wrap: wrap; quebra automatica */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 20px;
+}
+/* Cards */
+.card{
+    background-color: #ffff;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    flex: 1 1 calc(25% - 16px);
+}
+/* Mobile */
+@media(max-width: 600px){
+    .card{
+        flex: 1 1 100%;
+    }
+}
+/* Tablet */
+@media(min-width:601px) and (max-width:900px){
+    .card{
+        flex: 1 1 calc(50% - 16px)
+    }
+}
