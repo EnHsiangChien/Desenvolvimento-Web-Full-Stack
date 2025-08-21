@@ -1,0 +1,68 @@
+/* Variaveis CSS */
+:root{
+    --main-raius: 5px;
+    --main-padding:5px;
+    --gap: 5px;
+    --bg: #0c9600cc;
+    --cor-menu: #333;
+    --color-menu-hover: #fff;
+}
+/* Reset css */
+*,
+*::before,
+*::after{box-sizing: border-box;}
+/* Configuração Base */
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background-color: #ccc;
+    text-align: center;
+}
+header, aside, main, article, footer{
+    background-color: var(--bg);
+    margin: var(--gap);
+    border-radius: var(--main-raius);
+    padding: var(--main-padding);
+}
+#coutainer{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    color:inherit;
+}
+/* Menu */
+
+/* Botão de Busca */
+
+/* Carrossel */
+
+/* Conteudo */
+
+/* Rodape */
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.footer-container ul,
+.footer-container div{
+    flex: 1;
+    min-width: 180px;
+    max-width: 30%;
+}
+footer ul{
+    padding: 0;
+    margin: 0;
+
+}
+.footer-bottom{
+    margin: 8px 0;
+}

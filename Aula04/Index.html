@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex e Grid</title>
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="flex.css">
+    <!-- <link rel="stylesheet" href="grid.css"> -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <!-- #container>header+#main-contauner>aside+#content-container>main+section.content-row^^footer -->
+    <div id="container">
+        <header>
+            <!-- nav.menu>.logo{Logo da Empresa}+ul.menu-items>li*3>a[href=#]{item $}^^.search-bar>form>input[type="text"][placeholder="Buscar"]+button:submit -->
+            <nav class="menu">
+                <div class="logo">Logo da Empresa +18</div>
+                <ul class="menu-items">
+                    <li><a href="#">item 1</a></li>
+                    <li><a href="#">item 2</a></li>
+                    <li><a href="#">item 3</a></li>
+                </ul>
+                <div class="search-bar">
+                    <form action="">
+                        <input type="text" placeholder="Buscar">
+                        <button type="submit">Click Arrombado</button>
+                    </form>
+                </div>
+            </nav>
+        </header>
+        <div id="main-container">
+            <aside>
+                <!-- image.author-thumbnail[src="https://placehold.co/100x100/000000/FFFFFF.png"][alt="Minha Image"]+h2.autor-name{HOT Chien}+a.autor-emai[href="mailto:enhsiang12@hotmail.com"]{enhsiang12@hotmail.com}+p.author-bio>lorem^.social-links -->
+                
+                <image class="author-thumbnail" src="https://placehold.co/100x100/000000/FFFFFF.png" alt="Minha Image"></image>
+                <h2 class="autor-name">HOT Chien</h2>
+                <a href="mailto:enhsiang12@hotmail.com" class="autor-emai">enhsiang12@hotmail.com</a>
+                <p class="author-bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum vel eos deleniti obcaecati architecto sequi dolorum error, beatae aliquid commodi accusantium magnam veritatis explicabo debitis labore, vitae ipsa consequatur. Quibusdam!</p>
+                <div class="social-links">
+                    <!-- a*5[href="#"]>i.fab.fa-.social-icon -->
+                    <a href="#"><i class="fab fa-facebook social-icon"></i></a>
+                    <a href="#"><i class="fab fa-behance social-icon"></i></a>
+                    <a href="#"><i class="fab fa-linkedin social-icon"></i></a>
+                    <a href="#"><i class="fab fa-instagram social-icon"></i></a>
+                    <a href="#"><i class="fab fa-github social-icon"></i></a>
+                </div>
+            </aside>
+            <div id="content-container">
+                <main>
+                    <!-- .carousel>.carousel-images>img*3[src="https://placehold.co/950x250/000000/FFFFFF.png"][alt="image $"] -->
+                    <div class="carousel">
+                        <div class="carousel-images">
+                            <img src="https://placehold.co/800x250/000000/FFFFFF.png" alt="image 1">
+                            <!-- <img src="https://placehold.co/950x250/000000/FFFFFF.png" alt="image 2">
+                            <img src="https://placehold.co/950x250/000000/FFFFFF.png" alt="image 3"> -->
+                        </div>
+                        <button class="prev">Prev</button>
+                        <button class="next">Next</button>
+                    </div>
+                </main>
+                <section class="content-row">
+                    <!-- article.content*3>img[src="https://placehold.co/250x150/000000/FFFFFF.png"][alt="img $"]+p>lorem^button{Saiba Mais} -->
+                    <article class="content">
+                        <img src="https://placehold.co/250x150/000000/FFFFFF.png" alt="img 1">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit laborum tenetur iusto nihil at maiores perspiciatis, illo aliquam velit corrupti quod pariatur laudantium praesentium ut numquam, nesciunt quae doloribus consequatur.</p>
+                        <button>Saiba Mais</button>
+                    </article>
+                    <article class="content">
+                        <img src="https://placehold.co/250x150/000000/FFFFFF.png" alt="img 2">
+                        <p>Ea voluptate facere veniam accusamus fugit sed voluptas maiores, tenetur, dignissimos velit, nulla similique. Beatae minima facere eum suscipit harum, similique dolores necessitatibus reiciendis, modi numquam officiis ad ducimus odio?</p>
+                        <button>Saiba Mais</button>
+                    </article>
+                    <article class="content">
+                        <img src="https://placehold.co/250x150/000000/FFFFFF.png" alt="img 3">
+                        <p>Aliquam impedit quisquam ratione libero nam. Esse consequatur ipsa quaerat voluptatum ad deleniti ratione. Incidunt recusandae esse repudiandae. Accusantium similique quo sed placeat, modi provident perferendis reprehenderit eos at nobis.</p>
+                        <button>Saiba Mais</button>
+                    </article>
+                    
+                </section>
+            </div>
+        </div>
+        <footer>
+            <!-- .footer-coutainer>ul*2>li*3>a[href="#"]{item $} -->
+            <div class="footer-container">
+                <ul>
+                    <li><a href="#">item 1</a></li>
+                    <li><a href="#">item 2</a></li>
+                    <li><a href="#">item 3</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">item 1</a></li>
+                    <li><a href="#">item 2</a></li>
+                    <li><a href="#">item 3</a></li>
+                </ul>
+                <!-- div>p>a.author-email[href="#"]{enhsiang@hotmail.com}^p{Telefone: +55 11 4002-8922}^^.footer-bottom>p{2025 - Fecap} -->
+                <div>
+                    <p><a href="#" class="author-email">enhsiang@hotmail.com</a></p>
+                    <p>Telefone: +55 11 4002-8922</p>
+                </div>
+                <div class="footer-bottom">
+                    <p>2025 - Fecap</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- <script src="script.js"></script> -->
+</body>
+</html>
