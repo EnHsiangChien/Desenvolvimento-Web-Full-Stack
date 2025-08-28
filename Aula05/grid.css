@@ -1,0 +1,14 @@
+.container{
+    display: grid;
+    grid-template-rows: auto 1fr auto; 
+}
+#main-container{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: var(--gap);
+    align-items: stretch;
+}
+.content-row{
+    display: grid;
+    grid-template-columns:repeat(3, minmax(0, 1fr)) ;
+}
