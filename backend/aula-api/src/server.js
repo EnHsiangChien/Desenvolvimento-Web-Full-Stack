@@ -1,3 +1,4 @@
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0'  //uso so na fecap, pc é chato
 import 'dotenv/config'
 import app from './app.js'
 
